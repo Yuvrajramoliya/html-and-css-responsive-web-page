@@ -1,0 +1,406 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    height: 100vh;
+    width: 100%;
+    border: 1px solid black;
+    background: url(images/ever_bg.jpg);
+    background-size:  cover;
+}
+#main{
+    background: rgb(114, 151, 166);
+    color: white;
+    height: 120px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+nav ul li {
+    display: inline-block;
+
+}
+nav ul li a{
+    padding: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+
+}
+
+#txt h1{
+    font-size: 60px;
+    color: white;
+    margin-top: 10%;
+    margin-left: 10%;
+    line-height: 90px;
+}
+#bt1{
+margin-left: 10%;
+margin-top: 5%;
+padding: 15px;
+font-size: 18px;
+background: white;
+color: black;
+}
+#bt2{
+margin-left: 2%;
+/* margin-top: 10%; */
+padding: 15px;
+font-size: 18px;
+background: white;
+color: black;
+}
+#abt{
+    height: 55vh;
+    width: 80%;
+    /* border: 1px solid black; */
+    margin-left: 10%;
+    margin-top: 5%;
+}
+#abt h1{
+    font-size: 30px;
+    text-decoration: underline;
+}
+#abt-main{
+    height: 50vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#abt1{
+    height: 50vh;
+    width: 45%;
+}
+#abt1 img{
+    height: 100%;
+    width: 100%;
+}
+#abt1 h2{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#abt1 p{
+    margin-bottom: 30px;
+}
+#abt1 a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    border-radius: 15px;
+    background: skyblue;
+}
+#do{
+    height: 70vh;
+    width: 80%;
+    /* border: 1px solid black; */
+    margin-left: 10%;
+    margin-top: 10%;
+}
+#do h1{
+    font-size: 30px;
+    text-decoration: underline
+}
+#do-main{
+    height: 62vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 1px solid black; */
+    margin-top: 30px;
+}
+#do1{
+    height: 60vh;
+    width: 30%;
+    
+}
+#do1 img{
+    height: 40vh;
+    width: 100%;
+}
+#do1 p{
+    text-indent: 50px;
+    margin-bottom: 10px;
+}
+#do1 a{
+    
+    background: skyblue;
+    padding: 2px;
+    text-decoration: none;
+    color: black;
+}
+#news{
+    height: 100vh;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-top: 100px;
+}
+#n-main{
+    height: 100vh;
+    width: 80%;
+    /* border: 1px solid black; */
+    text-align: center;
+    margin-left: 10%;
+    /* margin-top: 5%; */
+}
+#n-main h1{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+}
+#n-main img{
+    height: 75vh;
+    width: 100%;
+
+}
+#n-main p{
+    margin-bottom: 20px;
+}
+#n-main a{
+    background: skyblue;
+    padding: 5px;
+
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+}
+#form{
+    height: 60vh;
+    width: 80%;
+    margin-left: 10%;
+    /* border: 1px solid black; */
+    margin-top: 5%;
+}
+#fm-main{
+    margin-top: 2%;
+    height: 55vh;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+#fm-main input{
+    height: 40px;
+    width: 450px;
+}
+#fm-main a{
+    background: skyblue;
+    color: black;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 20px;
+    text-decoration: none;
+}
+footer{
+    height: 20vh;
+    width: 100%;
+    background: skyblue;
+}
+#ft-main{
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+@media (min-width:480px) and (max-width:720px)
+ {
+  #abt{
+    height: auto;
+    width: auto;
+  }  
+  #abt-main{
+    height: auto;
+    width: auto;
+  }
+  #abt1{
+    height: auto;
+    /* width: auto; */
+  }
+  #do{
+    height: auto;
+    width: auto;
+  }
+  #do-main{
+    height: auto;
+    width: auto;
+  }
+  #do1{
+    height: auto;
+  }
+  #news{
+    height: auto;
+    width: auto;
+  }
+  #n-main{
+    height: auto;
+    /* width: auto; */
+  }
+
+}
+
+@media (min-width:360px) and (max-width:480px)
+ {
+    nav ul li a{
+        font-size: 9px;
+        padding: 0;
+    }
+    #abt{
+        height: auto;
+        width: auto;
+    }
+    #abt-main{
+        height: auto;
+        width: auto;
+        flex-direction: column;
+        margin: 0;
+    }
+    #abt1{
+        height: auto;
+        width: auto;
+        margin: 0;
+    }
+    #do{
+        height: auto;
+        width: auto;
+        margin: 0;
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    #do-main{
+        height: auto;
+        width: auto;
+        margin: 0;
+        flex-direction: column-reverse;
+    }
+    #do1{
+        height: auto;
+        width: 80%;
+
+    }
+    #news{
+        height: auto;
+        width: auto;
+        margin: 0;
+    }
+    #n-main{
+        height: auto;
+        width: auto;
+        margin: 0;
+    }
+    #n-main p{
+        font-size: 15px;
+    }
+    #form{
+        height: auto;
+        width: auto;
+
+    }
+    #fm-main{
+        height: auto;
+        width: 80%;
+    }
+    #fm-main input{
+        width: 120%;
+    }
+    #fm-main textarea{
+        width: 120%;
+    }
+    footer{
+        height: auto;
+        width: auto;
+        margin-top: 50px;
+    }
+    #ft-main{
+        height: auto;
+        width: auto;
+        flex-direction: column;
+    }
+    #ft1{
+        height: auto;
+        width: auto;
+    }
+}
+
+
+@media (min-width:0px) and (max-width:360px)
+ {
+    nav ul li a{
+        font-size: 9px;
+        padding: 0;
+    }
+    #abt{
+        height: auto;
+        width: auto;
+    }
+    #abt-main{
+        height: auto;
+        width: auto;
+        flex-direction: column;
+    }
+    #abt1{
+        height: auto;
+        width: auto;
+    }
+    #do{
+        height: auto;
+        width: auto;
+    }
+    #do-main{
+        height: auto;
+        width: auto;
+        flex-direction: column-reverse;
+    }
+    #do1{
+        height: auto;
+        width: auto;
+    }
+    #news{
+        height: auto;
+        width: auto;
+    }
+    #n-main{
+        height: auto;
+        width: auto;
+    }
+    #n-main p{
+        font-size: 15px;
+    }
+    #form{
+        height: auto;
+        width: auto;
+    }
+    #fm-main{
+        height: auto;
+        width: 80%;
+    }
+    #fm-main input{
+        width: 100%;
+    }
+    #fm-main textarea{
+        width: 100%;
+    }
+    footer{
+        height: auto;
+        width: auto;
+        margin-top: 50px;
+    }
+    #ft-main{
+        height: auto;
+        width: auto;
+        flex-direction: column;
+    }
+    #ft1{
+        height: auto;
+        width: auto;
+    }
+}
